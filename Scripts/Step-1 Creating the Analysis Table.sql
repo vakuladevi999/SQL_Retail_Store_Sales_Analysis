@@ -1,0 +1,12 @@
+SELECT  [Transaction_ID]
+      ,[Customer_ID]
+      ,[Category]
+      ,[Item]
+      ,[Price_Per_Unit]
+      ,[Quantity]
+      ,[Total_Spent]
+      ,[Payment_Method]
+      ,[Location]
+       [Transaction_Date]
+INTO retail_store
+FROM [RetailProject].[dbo].[retail_store_sales]
